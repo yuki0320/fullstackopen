@@ -1,6 +1,6 @@
 /*
  * @since: 2022-10-25 18:33:50
- * @lastTime: 2022-10-30 17:37:38
+ * @lastTime: 2022-10-30 17:42:47
  * @文件相对于项目的路径: \fullstackopen\part_1\courseinfo\src\App.js
  * @message: 
  */
@@ -32,29 +32,33 @@ const Total  = ({total}) =>{
   )
 }
 const App = () => {
-  const course = 'Half Stack application development'
-  const parts =  [
-    {
-      name: 'Fundamentals of React', 
-      exercises: 10
-    },
-    {
-      name: 'Using props to pass data', 
-      exercises: 7
-    },
-    {
-      name: 'State of a component', 
-      exercises: 14
-    },
-  ]
+  const course = {
+    name: 'Half Stack application development',
+    parts: [
+      {
+        name: 'Fundamentals of React', 
+        exercises: 10
+      },
+      {
+        name: 'Using props to pass data', 
+        exercises: 7
+      },
+      {
+        name: 'State of a component', 
+        exercises: 14
+      },
+    ]
+    
+  }
   return (
     <div>
-      <Header course={course} />
-      <Content parts={parts} />
-      <Total  total={parts} />
+      <Header course={course.name} />
+      <Content parts={course.parts} />
+      <Total  total={course.parts} />
       
     </div>
   )
-}
+  }
+  
 
 export default App;
