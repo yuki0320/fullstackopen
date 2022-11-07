@@ -1,0 +1,19 @@
+/*
+ * @since: 2022-11-07 15:27:49
+ * @lastTime: 2022-11-07 15:30:38
+ * @文件相对于项目的路径: \fullstackopen\part_1\anecdotes\src\index.css
+ * @message: 
+ */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
